@@ -11,35 +11,35 @@ const LoginRegisterForm = () => {
     <>
       <style>{`
          * {
-    padding: 0; margin: 0; box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-  }
+          padding: 0; margin: 0; box-sizing: border-box;
+          font-family: 'Poppins', sans-serif;
+          }
 
-  html, body, #root {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  background-image: url("C:\Users\Admin\Desktop\bg.jpg"); 
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+          html, body, #root {
+          height: 100%;
+          width: 100%;
+          margin: 0;
+          padding: 0;
+          background-image: url("C:\Users\Admin\Desktop\bg.jpg"); 
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
 
 
-  .background {
-    width: 430px;
-    height: 520px;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 50%;
-    z-index: -1;
-  }
+        .background {
+          width: 430px;
+          height: 520px;
+          position: absolute;
+          transform: translate(-50%, -50%);
+          left: 50%;
+          top: 50%;
+          z-index: -1;
+        }
         .background .shape {
           height: 200px;
           width: 200px;
